@@ -1,4 +1,6 @@
-
+img {
+  display: block;
+}
 .btn {
   border: none;
   padding: 0.25rem 1.25rem;
