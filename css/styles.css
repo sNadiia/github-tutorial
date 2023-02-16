@@ -1,62 +1,245 @@
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
 img {
   display: block;
-}
-.btn {
-  border: none;
-  padding: 0.25rem 1.25rem;
+  max-width: 100%;
+  height: auto;
 }
 
-.link {
-  text-decoration: none;
-  color: white;
+/* ==========================Restourant About====================== */
+.restorant-about {
+  padding: 16px 15px;
+  outline: 1px solid sienna;
 }
-/* Напиши свій код під цим рядком */
-.btn.active {
-  color: red;
+.restorant-about-thumb {
 }
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-.link.active {
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.restorant-about-pretitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #b4b4b4;
+  margin-bottom: 12px;
+}
+.restorant-about-name {
+  font-family: "Film P3";
+  font-size: 40px;
   font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #494848;
+
+  margin-bottom: 12px;
+}
+.restorant-about-text-first {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  margin-bottom: 28px;
+  width: 258px;
 }
 
-
-.footer {
-  display: block;
-  width: 100vw;
-  background-color: blanchedalmond;
+.restorant-about-image {
+  margin-left: auto;
+  margin-bottom: 32px;
 }
-html,
-    body {
-      position: relative;
-      height: 100%;
-    }
+.restorant-about-thumb-second {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.restorant-about-img {
+}
+.restorant-about-text-second {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #c79002;
+  width: 163px;
+}
+.slider-restourant-about {
+  display: flex;
+  gap: 20px;
+  margin-left: 69px;
+  margin-bottom: 56px;
+}
+/* ==========================About hotel====================== */
+.about-hotel {
+  padding: 18px 15px;
+  outline: 1px solid sienna;
+}
+.about-hotel-thumb {
+}
+.about-hotel-pretitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #b4b4b4;
 
-    body {
-      background: #eee;
-      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-      font-size: 14px;
-      color: #000;
-      margin: 0;
-      padding: 0;
-    }
+  margin-bottom: 6px;
+  text-align: right;
+}
+.about-hotel-name {
+  font-family: "Film P3";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #494848;
 
-    .swiper {
-      width: 100%;
-      height: 100%;
-    }
+  margin-bottom: 16px;
+  text-align: right;
+}
+.about-hotel-text-first {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  margin-left: auto;
+  margin-bottom: 28px;
+  width: 242px;
+}
+.about-hotel-image {
+  margin-bottom: 32px;
+}
+.about-hotel-thumb-second {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.about-hotel-text-second {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #c79002;
+  width: 163px;
+}
+.about-hotel-img {
+}
+.slider-about-hotel {
+  display: flex;
+  gap: 20px;
+  margin-right: 69px;
+  flex-direction: row-reverse;
+  margin-bottom: 54px;
 
-    .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+}
+/* ==========================REstourant: About restourant====================== */
+.about-restourant {
+  padding: 16px 15px;
+  outline: 1px solid sienna;
+}
+.about-restourant-thumb {
+}
+.about-restourant-pretitle {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #b4b4b4;
+
+  margin-bottom: 12px;
+  text-align: left;
+}
+.about-restourant-name {
+  font-family: "Film P3";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  color: #494848;
+
+  margin-bottom: 12px;
+}
+.about-restourant-text-first {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #7a7a7a;
+  margin-bottom: 28px;
+  width: 258px;
+}
+.about-restourant-image {
+  margin-left: auto;
+  margin-bottom: 32px;
+}
+.about-restourant-thumb-second {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.about-restourant-img {
+}
+.about-restourant-text-second {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #c79002;
+  width: 163px;
+}
+.slider-about-restourant {
+  display: flex;
+  gap: 20px;
+  margin-left: 69px;
+  margin-bottom: 56px;
+
+}
