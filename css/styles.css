@@ -223,9 +223,48 @@ body {
     gap: 40px;
     margin-left: 0;
   }
-  
-  
+} 
 
+/*================= desktop version restourant================ */
+
+@media screen and (min-width: 1280px) {
+  .restorant-about>.container, .about-restourant>.container {
+    position: relative;
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
+  .restorant-about {
+    padding-bottom: 225px;
+    
+  }
+  .about-restourant {
+    padding-bottom: 207px;
+    
+  }
+   
+  .restorant-about-text-first, .about-restourant-text-first {
+    margin-bottom: 162px;
+    max-width: 518px;
+  }
+  
+  .restorant-about-image,.about-restourant-image {
+    right: 95px;
+  }
+  
+  .restorant-about-thumb-second,.about-restourant-thumb-second {
+    gap: 32px;
+  }
+
+  .slider-restourant-about {
+    bottom: -107px;
+    right: 85px;
+  }
+  .slider-about-restourant {
+    bottom: -103px;
+    right: 85px;
+  }
 } 
 /* ==========================About hotel====================== */
 .about-hotel {
@@ -359,8 +398,52 @@ body {
     left: 60px;
     gap: 40px;
     margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+} 
+
+/*================= desktop version hotel ================ */
+
+@media screen and (min-width: 1280px) {
+  .about-hotel>.container {
+    position: relative;
+    width: 1280px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .about-hotel {
+    padding-bottom: 197px;
+  }
+  .about-hotel-thumb {
+    position: relative;
+    margin-bottom: 162px;
   }
   
+  .about-hotel-text-first {
+    max-width: 488px;
+  }
   
+  .about-hotel-image{
+    left: 95px;
+  }
 
-} 
+  .about-hotel-thumb-second  {
+    gap: 45px;
+    margin-left: 294px;
+    margin-top: 0;
+  }
+  
+  .about-hotel-text-second {
+    max-width: 311px;
+    margin-bottom: 0;
+  }
+  
+  .slider-about-hotel {
+    bottom: -75px;
+    left: 85px;
+    gap: 26px;
+    
+  
+  }
+}
