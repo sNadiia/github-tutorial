@@ -69,7 +69,7 @@ body {
   padding-top: 16px;
   padding-bottom: 72px;
   background-color: #FFFDEE;
-  outline: 1px solid rgb(31, 92, 35);
+  /* outline: 1px solid rgb(31, 92, 35); */
 }
 .restorant-about-thumb {
 }
@@ -172,7 +172,7 @@ body {
   .restorant-about, .about-restourant {
     padding-top: 120px;
     padding-bottom: 262px;
-    outline: 1px solid rgb(31, 92, 35);
+    /* outline: 1px solid rgb(31, 92, 35); */
   }
    .restorant-about-thumb, .about-restourant-thumb {
     position: relative;
@@ -271,7 +271,7 @@ body {
   padding-top: 18px;
   padding-bottom: 72px;
   background-color: #FFFDEE;
-  outline: 1px solid rgb(31, 92, 35);
+  /* outline: 1px solid rgb(31, 92, 35); */
 }
 .about-hotel-thumb {
 }
@@ -443,7 +443,6 @@ body {
     bottom: -75px;
     left: 85px;
     gap: 26px;
-    
-  
+
   }
 }
