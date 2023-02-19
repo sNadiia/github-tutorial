@@ -121,6 +121,8 @@ body {
 .restorant-about-image,.about-restourant-image {
   margin-left: auto;
   margin-bottom: 32px;
+ 
+
 }
 
 .restorant-about-thumb-second,.about-restourant-thumb-second {
@@ -172,7 +174,7 @@ body {
   .restorant-about, .about-restourant {
     padding-top: 120px;
     padding-bottom: 262px;
-    /* outline: 1px solid rgb(31, 92, 35); */
+    
   }
    .restorant-about-thumb, .about-restourant-thumb {
     position: relative;
